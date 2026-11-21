@@ -25,9 +25,9 @@ import random
 SIZE_UNITS = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
 
 START_IMAGES = [
-    "https://imgyx.pages.dev/0DQNi",
-    "https://imgyx.pages.dev/wdnkl",
-    "https://imgyx.pages.dev/ie3RW",
+    "https://i.ibb.co/PGwRbpg3/file-927.jpg",
+    "https://i.ibb.co/m762LdR/file-926.jpg",
+    "https://i.ibb.co/qLKXJRqT/2679e03241c2.jpg",
     "https://imgyx.pages.dev/q0yyF",
     "https://imgyx.pages.dev/031KP"
 ]
@@ -87,8 +87,8 @@ def build_help_text(with_support=True):
     )
     if with_support:
         text += (
-            f"\n<b>💬 {sc('main channel')}</b> › <a href='https://t.me/Unrated_Coder'>{sc('click here')}</a>"
-            f"\n<b>💖 {sc('support')}</b> › <a href='https://t.me/anireal_support'>@anireal_support</a>"
+            f"\n<b>💬 {sc('main channel')}</b> › <a href='https://t.me/CodeRips'>{sc('click here')}</a>"
+            f"\n<b>💖 {sc('support')}</b> › <a href='https://t.me/Code_Rips_Support'>@Code_Rips_Support</a>"
         )
     return text
 
@@ -97,9 +97,9 @@ def build_about_text():
     return (
         f"<b>ℹ️ {sc('about this bot ~ ✨')}</b>\n"
         f"<i>⚡ {sc('a high-performance asynchronous video processing, compression & encoding bot.')}</i>\n"
-        f"├ <b>{sc('developer')}</b> › <a href='https://t.me/Og_Luffytaro'>@Og_Luffytaro</a>\n"
-        f"├ <b>{sc('main channel')}</b> › <a href='https://t.me/Unrated_Coder'>@Unrated_Coder</a>\n"
-        f"├ <b>{sc('support group')}</b> › <a href='https://t.me/anireal_support'>@anireal_support</a>\n"
+        f"├ <b>{sc('developer')}</b> › <a href='https://t.me/ZENCURSE'>@ZENCURSE</a>\n"
+        f"├ <b>{sc('main channel')}</b> › <a href='https://t.me/CodeRips'>@Unrated_Coder</a>\n"
+        f"├ <b>{sc('support group')}</b> › <a href='https://t.me/Code_Rips_Support'>@Code_Rips_Support</a>\n"
         f"╰ <b>{sc('library')}</b> › <code>Hydrogram + Python + FFmpeg</code>"
     )
 
